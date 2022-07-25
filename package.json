@@ -4,11 +4,9 @@
   "description": "",
   "main": "data.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
+    "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start": "webpack serve --open"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
